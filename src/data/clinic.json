@@ -1,0 +1,96 @@
+{
+  "clinic": {
+    "name": "MediCare Clinic",
+    "tagline": "Caring for you, close to home.",
+    "phoneDisplay": "+1 (555) 123-4567",
+    "phoneDial": "+15551234567",
+    "address": "24 Wellness Avenue, Springfield",
+    "hours": "Mon–Fri, 9:00 AM – 5:00 PM"
+  },
+  "doctors": [
+    {
+      "id": "dr-sarah-chen",
+      "name": "Dr. Sarah Chen",
+      "specialty": "General Practitioner",
+      "experienceYears": 12,
+      "bio": "Family medicine with a focus on preventive care and chronic condition management."
+    },
+    {
+      "id": "dr-james-okafor",
+      "name": "Dr. James Okafor",
+      "specialty": "Pediatrician",
+      "experienceYears": 9,
+      "bio": "Gentle, evidence-based care for newborns through teens, including growth and vaccination reviews."
+    },
+    {
+      "id": "dr-priya-sharma",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Dermatologist",
+      "experienceYears": 7,
+      "bio": "Medical dermatology covering acne, eczema, skin allergies and full-body skin checks."
+    },
+    {
+      "id": "dr-michael-ross",
+      "name": "Dr. Michael Ross",
+      "specialty": "Cardiologist",
+      "experienceYears": 15,
+      "bio": "Heart health screenings, hypertension management and lifestyle-focused cardiac care."
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-consultation",
+      "name": "General Consultation",
+      "description": "Full assessment for illness, injury referrals or a routine check-up.",
+      "durationMin": 30
+    },
+    {
+      "id": "svc-pediatric",
+      "name": "Pediatric Check-up",
+      "description": "Well-child visits, growth tracking and school health clearances.",
+      "durationMin": 30
+    },
+    {
+      "id": "svc-derma",
+      "name": "Skin & Allergy Clinic",
+      "description": "Diagnosis and treatment for rashes, acne, eczema and allergic reactions.",
+      "durationMin": 45
+    },
+    {
+      "id": "svc-cardio",
+      "name": "Heart Health Screening",
+      "description": "Blood pressure, ECG and cholesterol review with a personalised plan.",
+      "durationMin": 60
+    },
+    {
+      "id": "svc-vaccination",
+      "name": "Vaccinations",
+      "description": "Childhood immunisations, flu shots and travel vaccines.",
+      "durationMin": 15
+    },
+    {
+      "id": "svc-lab",
+      "name": "Blood Tests & Lab",
+      "description": "Walk-in phlebotomy with results explained by your doctor.",
+      "durationMin": 20
+    }
+  ],
+  "sampleAppointments": [
+    {
+      "id": "apt-sample-1",
+      "doctorId": "dr-sarah-chen",
+      "patientName": "Demo Patient",
+      "time": "10:00",
+      "status": "Confirmed",
+      "inDays": 1
+    },
+    {
+      "id": "apt-sample-2",
+      "doctorId": "dr-james-okafor",
+      "patientName": "Alex Demo",
+      "time": "14:00",
+      "status": "Confirmed",
+      "inDays": 3
+    }
+  ]
+}
